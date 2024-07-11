@@ -17,25 +17,25 @@ const char aminoacids[65][4] =
 		// Fallback (invalido): [0]
 		"___",
 
-		// Primeiro nucleotídeo A
+		// Primeiro nucleotídeo A [1..16]
 		"Lys", "Asn", "Asn", "Lys", // AA...
 		"Lle", "Lle", "Lle", "Met", // AU...
 		"Thr", "Thr", "Thr", "thr", // AC...
 		"Arg", "Ser", "Ser", "Arg", // AG...
 						
-		// Primeiro nucleotídeo U
+		// Primeiro nucleotídeo U [17..32]
 		"END", "Tyr", "Tyr", "END", // UA...
 		"Leu", "Phe", "Phe", "Leu", // UU...
 		"Ser", "Ser", "Ser", "Ser", // UC...
 		"END", "Cys", "Cys", "Trp", // UG...
 						
-		// Primeiro nucleotídeo C
+		// Primeiro nucleotídeo C [33..48]
 		"Gln", "His", "His", "Gln", // CA...
 		"Leu", "Leu", "Leu", "Leu", // CU...
 		"Pro", "Pro", "Pro", "Pro", // CC...
 		"Arg", "Arg", "Arg", "Arg", // CG...
 						
-		// Primeiro nucleotídeo G
+		// Primeiro nucleotídeo G [49..64]
 		"Glu", "Asp", "Asp", "Glu", // GA...
 		"Val", "Val", "Val", "Val", // GU...
 		"Ala", "Ala", "Ala", "Ala", // GC...
@@ -67,6 +67,11 @@ size_t getAminoAcidIndex (const char *rna, size_t start) {
 }
 
 void print_codon (size_t index) {
+
+	if (index == 0) {
+		printf("%s%s %s", RED, "___", CLEAR);
+		return;
+	}
 
 	if (index == 8) {
 		printf("%s%s %s", GREEN, aminoacids[index], CLEAR);
@@ -136,7 +141,7 @@ void print_rna (const char *target, const char *rnaName) {
 int main () {
 	
 	const char *rna = 
-		"CCGAUGUCGAUAAGUCCCACGGUGUAAUCUUUCAGCACGCAAGGCCCGCCUGUAAAAUUNGCNNN";
+		"CCGAUGUCGAUAAGUCCCACGGUGUAAUCUUUCAGCACGCAAGGCCCGCCUGUAAAAUUNGCNNNNNNNNN";
 
 	print_rna (rna, "original");
 
