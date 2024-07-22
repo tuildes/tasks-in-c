@@ -8,6 +8,7 @@
 // Defines de todo o projet
 #define BEECROWD_EXERCISE 1024
 #define SUM(a, b) (a + b)
+#define PRODUCT(a,b) (a * b)
 
 // Global variables
 
@@ -28,7 +29,8 @@ int main (/* int argc, char *argv[] */) {
     int a, b;
 
     scanf("%d%d", &a, &b);
-    printf("X = %d\n", SUM(a,b));
+    printf("SOMA = %d\n", SUM(a,b));
+    printf("PROD = %d\n", PRODUCT(a,b));
 
     return 0;
 }
