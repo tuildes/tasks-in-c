@@ -35,11 +35,11 @@ int main (/* int argc, char *argv[] */) {
 
     printf("Exercício da beecrowd: %d\n\n", BEECROWD_EXERCISE);
 
-    double grade1, grade2;
-    scanf("%lf%lf", &grade1, &grade2);
+    double grade1, grade2, grade3;
+    scanf("%lf%lf%lf", &grade1, &grade2, &grade3);
 
-    const double result = (((grade1 * 35) + (grade2 * 75)) / 110);
-    printf("MEDIA = %.5lf\n", result);
+    const double result = (((grade1 * 2) + (grade2 * 3) + (grade3 * 5)) / 10);
+    printf("MEDIA = %.1lf\n", result);
 
     return 0;
 }
