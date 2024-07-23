@@ -17,7 +17,7 @@
 #include <time.h>
 
 // Defines de todo o projet
-#define BEECROWD_EXERCISE 1024
+#define BEECROWD_EXERCISE 2006
 
 // Global variables
 
