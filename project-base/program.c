@@ -7,6 +7,13 @@
  *  VARIAVEIS - variableName
  *  STRUCTS - StructName
  *  ------------------------------------
+ *
+ *  Function name
+ *  Function description
+ *
+ *  @param { type } name - use
+ *  @returns { type } - use 
+ *
  * */
 
 // Includes de todo o projeto
@@ -16,26 +23,12 @@
 #include <math.h>
 #include <time.h>
 
-// Defines de todo o projet
+// Defines de todo o projeto
 #define BEECROWD_EXERCISE 1024
-
-// Global variables
-
-/**
- *  Function name
- *  Function description
- *
- *  @param { type } name - use
- *  @return { type } - use
- * 
- **/
-// Function
 
 int main (/* int argc, char *argv[] */) {
 
     printf("Exercício da beecrowd: %d\n\n", BEECROWD_EXERCISE);
-
-    // Code
 
     return 0;
 }
