@@ -26,7 +26,7 @@
 int main (/* int argc, char *argv[] */) {
 
     for (unsigned char i = 0; i < 255; i++) {
-        printf("%c ", i);
+        printf("%3d - ASCII %c\n", i, i);
     }
 
     printf("\n");
