@@ -30,8 +30,8 @@
 // Defines de AMBIENTE
 #define DVD_CHAR    35
 #define BLANK_CHAR  34
-#define HEIGHT      10
-#define WIDTH       5
+#define HEIGHT      20
+#define WIDTH       10
 
 // Defines de TICKS e intervalo de execucao
 #define MAX_TICK    1000
