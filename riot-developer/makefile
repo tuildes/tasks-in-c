@@ -1,10 +1,9 @@
 OBJS	= program.o
 SOURCE	= program.c
-# HEADER	= library.h
-OUT	= program
+OUT	= riot
 CC	 = gcc
 FLAGS	 = -g -c -Wall -Wextra -Werror
-LFLAGS	 = -lm
+LFLAGS	 = -lcurl
 
 all: $(OBJS)
 	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)
