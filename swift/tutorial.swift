@@ -1,0 +1,1 @@
+print("Comandos para swift: `swift arquivo.swift`\n")
