@@ -12,5 +12,7 @@ public class ehPar {
         } else {
             System.out.printf("Impar!\n");
         }
+
+        input.close();
     }
 }
