@@ -118,8 +118,13 @@ int main() {
         }
     }
 
+    if(grafo[u][v] != 0) {
+        printf("\nCaminho direto entre %u e %u, sendo 0 saltos\n", u, v);
+        goto SALTO_AQUI;
+    }
+
     aux = grafo;
-    for(unsigned int i = 0; i < 5; i++) {
+    for(unsigned int i = 0; i < vertices; i++) {
         multiplica_grafo(grafo, aux, vertices, res);
 
         // printf("\nGrafo de multiplicidade %u:\n\n", i);
