@@ -8,9 +8,9 @@ int* findDegrees(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
     for (int i = 0; i < matrixSize; i++) {
         res[i] = 0;
 
-        for (int j = 0; j < matrixColSize[i]; j++) {
-            if (matrix[i][j]) res[i]++;
-        }
+        for (int j = 0; j < matrixColSize[i]; j++)
+            if (matrix[i][j])
+                res[i]++;
     }
 
     *returnSize = matrixSize;
