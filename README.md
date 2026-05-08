@@ -1,44 +1,24 @@
 <p align="center">
-  <img alt="Logo da linguagem C" src="https://miro.medium.com/v2/resize:fit:1390/0*KBAC5BL8fOeRdeAR.png" height="120">
-  <h3 align="center">Treinos em C</h3>
-  <p align="center">Uma série de desafios, algoritmos, treinamentos na linguagem C durante meu curso de <strong>IBM</strong></p>
-  <p align="center">
-    <img src="https://img.shields.io/github/languages/count/tuildes/tasks-in-c" />
-    <img src="https://img.shields.io/github/languages/code-size/tuildes/tasks-in-c" />
-  </p>
+  <i>A personal sandbox for competitive programming, algorithmic challenges, and small utility programs.</i>
 </p>
 
-## Sobre
-Este projeto possui uma série de algoritmo de treino na linguagem C.
+<p align="center">
+  <img src="https://img.shields.io/badge/Languages-Swift_|_C_|_Java_|_Python-blue" alt="Languages">
+  <img src="https://img.shields.io/badge/Platforms-LeetCode_|_Beecrowd-orange" alt="Platforms">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+</p>
 
-Possui um diretório ```project-base/``` e um script ```clone_project.sh``` para a criação de templates na linguagem C
-Este template possui um **makefile**  e um arquivo **program.c**, seguindo os padrões:
+## About
 
-| **TIPO**     	| **PADRÃO**  	    |
-| -----------------	| ----------------  |
-| MACRO     	      | MACRO_NAME      	|
-| FUNCOES           | function_name()  	|
-| FUNCOES INDIRETAS | _function_name() 	|
-| VARIAVEIS         | variableName     	|
-| STRUCTS           | StructName       	|
+This repository serves as a multi-language coding sandbox. It contains solutions to programming challenges, logic tests, and various small utility scripts. The code spans multiple languages and includes exercises from platforms like LeetCode and Beecrowd, as well as the "100 Days of SwiftUI" course.
 
-## Tecnologias
-- C
-- **Source**: [BeeCrowd](https://judge.beecrowd.com/pt)
-- **Source**: [CodeWars](https://codewars.com/)
+## Features
 
-## Algoritmos especiais
+* **Algorithmic Challenges:** Solutions for logic and data structure problems from LeetCode and Beecrowd.
+* **Multi-Language Codebase:** Snippets and projects written in Swift, C, Java, and Python.
+* **Biomedical Scripts:** Specialized programs from my Biomedical Informatics degree, including a DNA replicator (`Dna.c`) and an mRNA-to-amino-acid parser (`Aminoacids.c`).
+* **Utility Tools:** Small, practical, everyday programs, such as character counters and custom terminal tools.
 
-- **Dna.c**: Faz a duplicação de um DNA e imprime de forma colorida e visual
-- **Aminoacids.c**: Pega uma entrada de RNA mensageiro e imprime o aminoácido gerado
+## License
 
-<!--
-## Licença
-Licenciado sob a licença XXX. Veja o arquivo `LICENSE` para mais detalhes.
--->
-
-<br />
-
-<p align="center">Criado com 💙 por <a href="https://github.com/tuildes">tuildes</a></p>
-
-[^1]: Faculdade de **Informática Biomédica** na Universidade Federal do Paraná no ano de 2024 (primeiro semestre), o curso se consiste em uma matriz de ciência da computação com matérias focadas as áreas biomédicas e aplicações da computação em áreas médicas, como genética.
+This project is under the [MIT License](LICENSE).
