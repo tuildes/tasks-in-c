@@ -4,7 +4,7 @@ int maxDistinct(char* s) {
     int position;
 
     for(int i = 0; s[i] != '\0'; i++) {
-        position = (s[i] - 96);
+        position = (s[i] - 97);
         total[position] += 1;
 
         if (total[position] == 1)
