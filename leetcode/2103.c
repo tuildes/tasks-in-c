@@ -20,7 +20,7 @@ int countPoints(char* rings) {
     }
 
     for (int i = 0; i < 10; i++) {
-        logging_console(DEBUG, "rgbs[%d] = %d", i, rgbs[i]);
+        logging_console(LOG_DEBUG, "rgbs[%d] = %d", i, rgbs[i]);
         if (rgbs[i] == 7) {
             total++;
         }
